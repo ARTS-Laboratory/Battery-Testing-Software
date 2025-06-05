@@ -1,4 +1,0 @@
-[modGen]
-version=7
-specifyComponent = nirioRegPortHandshakeSpecifyComponent.vi
-emitCode = nirioRegPortHandshakeEmitCode.vi

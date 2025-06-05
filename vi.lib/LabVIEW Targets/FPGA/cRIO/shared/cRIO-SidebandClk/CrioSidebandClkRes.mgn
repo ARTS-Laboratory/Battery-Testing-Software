@@ -1,5 +1,0 @@
-[modGen]
-version        = 3
-declaration    = ./nirviGetDeclaration_CrioSidebandClkRes.vi
-modInfo        = ./nirviGetModInfo_CrioSidebandClkRes.vi
-instantiation  = ./nirviGetInstantiation_CrioSidebandClkRes.vi

@@ -1,5 +1,0 @@
-[modGen]
-;version=4
-constructor    = nirviMemWriteModGen/nirviMemWriteConstructor.vi
-modInfo        = nirviMemWriteModGen/nirviMemWriteGetModInfo.vi
-implementation = nirviMemWriteModGen/nirviMemWriteGetImplementation.vi

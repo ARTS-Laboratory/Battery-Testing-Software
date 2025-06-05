@@ -1,9 +1,0 @@
-[afsd]
-afsd = "0.0.0.0"
-
-[BeagleBone Black]
-BeagleBone Black = "0.0.0.0"
-
-[My Computer]
-My Computer = "130.164.96.23"
-

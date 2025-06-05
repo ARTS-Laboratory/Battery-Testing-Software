@@ -1,1 +1,0 @@
-This folder contains a log file for each time the LINX firmware wizard is run.  Log files contain detailed information about the firmware deployment.
