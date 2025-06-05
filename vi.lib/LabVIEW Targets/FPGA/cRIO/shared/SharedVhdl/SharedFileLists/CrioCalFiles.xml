@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<CrioCalFiles>
+  <!--
+  This file defines all of the VHDL files needed for calibration.
+
+  You can reference this file in your CrioStockModGenData.xml inside the "OtherFiles" tag as follows:
+  <OtherFiles shared_vhdl_path="SHARED_VHDL_FOLDER">
+     [module-family specific files]
+     <:Include what="children">SHARED_VHDL_FOLDER\SharedFileLists\CrioCalFiles.xml</:Include>
+  </OtherFiles>
+  -->
+  <FileCrioCal01>#{shared_vhdl_path}\cRioCalMemory.vhd</FileCrioCal01>
+  <FileCrioCal02>#{shared_vhdl_path}\cRioCalParallelCrc.vhd</FileCrioCal02>
+  <FileCrioCal03>#{shared_vhdl_path}\PkgCrioCal.vhd</FileCrioCal03>
+  <FileCrioCal04>#{shared_vhdl_path}\CrioParallelCrcCore.vhd</FileCrioCal04>
+  <FileCrioCal05>#{shared_vhdl_path}\cRioCalMultiply.vhd</FileCrioCal05>
+  <FileCrioCal06>#{shared_vhdl_path}\cRioCalMultiplyDsp48.vhd</FileCrioCal06>
+</CrioCalFiles>
