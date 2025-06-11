@@ -1,12 +1,12 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="15008000">
+<Library LVVersion="20008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
-	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for ITECH IT-M3400。</Property>
+	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for ITECH IT-M3400?</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)`!!!*Q(C=\&gt;1^4C."%)&lt;BD^5'G`I'+V_BLO!^Q%K?+V3WM6.#8[&amp;SETDA!LZ#8;'PY("3\^M^"1+%=!)33(44:PD[\X(0-.)IP[3@OFQL]ZO&amp;@GI@V;_7S_&gt;N\HV^Z+DTE]^F[N,`5"`8?.(`@0\L`@0][PZ8`(KT@0&gt;`^X`N`CO&amp;-&lt;&gt;8"XVQE7['F*;UI$H.RL?\*(G3*XG3*XG3"XG1"XG1"XG1/\G4/\G4/\G4'\G2'\G2'\G2DUIO=J',H&amp;.*.E]W3B:.&amp;EA'1V(SE8A34_**00SJR*.Y%E`C34Q-5?**0)EH]31?JCHR**\%EXA3$UM.39Z+DC@RM,Q#4_!*0)%H],#F!E]!#$9,&amp;AY7A;'A-\A)0)%H](#JQ".Y!E`A#4RU+`!%HM!4?!)05];JR.$U3I[(:?2Y()`D=4S/B[8F?"S0YX%]DI@NZ(A=DY.Q.H17BS"HED0!_=0R/"Z_S@%Y(M@D?"Q08?-/_4C:LOG6()`B-4S'R`!9(J;1Y4%]BM@Q'"[7F?%R0)&lt;(]"A?NJ,B-4S'RY!9G\+^D-7-C=9A)T!]`)SHR=:&gt;CC'R5?N@=XF161_A[M&amp;304#K"U&amp;VAV5X4H6$6!?N/E$6Q;C_M/K,K)#KD65,KA&lt;KT'?DH7B(WJ[WIUWU$7V.7`7J\TTQ@$[LN;&lt;4[;4D];D^@K`&gt;&lt;K&gt;JGL4:&lt;,2?L\6;L2\@6L_J3\FZ?#`&gt;=HX`L\8$^O^UNWX494N.BT_N^@QDW`*?_ATP2PX1Z=FLHD0[$RS-T$=!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
-	<Property Name="NI.Lib.Version" Type="Str">1.1.0.0</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)`!!!*Q(C=\&gt;1^4C."%)&lt;BD^5'G`I'+V_BLO!^Q%K?+V3WM6.#8[&amp;SETDA!LZ#8;'PY("3\^M^"1+%=!)33(44:PD[\X(0-.)IP[3@OFQL]ZO&amp;@GI@V;_7S_&gt;N\HV^Z+DTE]^F[N,`5"`8?.(`@0\L`@0][PZ8`(KT@0&gt;`^X`N`CO&amp;-&lt;&gt;8"XVQE7['F*;UI$H.RL?\*(G3*XG3*XG3"XG1"XG1"XG1/\G4/\G4/\G4'\G2'\G2'\G2DUIO=J',H&amp;.*.E]W3B:.&amp;EA'1V(SE8A34_**00SJR*.Y%E`C34Q-5?**0)EH]31?JCHR**\%EXA3$UM.39Z+DC@RM,Q#4_!*0)%H],#F!E]!#$9,&amp;AY7A;'A-\A)0)%H](#JQ".Y!E`A#4RU+`!%HM!4?!)05];JR.$U3I[(:?2Y()`D=4S/B[8F?"S0YX%]DI@NZ(A=DY.Q.H17BS"HED0!_=0R/"Z_S@%Y(M@D?"Q08?-/_4C:LOG6()`B-4S'R`!9(J;1Y4%]BM@Q'"[7F?%R0)&lt;(]"A?NJ,B-4S'RY!9G\+^D-7-C=9A)T!]`)SHR=:&gt;CC'R5?N@=XF161_A[M&amp;304#K"U&amp;VAV5X4H6$6!?N/E$6Q;C_M/K,K)#KD65,KA&lt;KT'?DH7B(WJ[WIUWU$7V.7`7J\TTQ@$[LN;&lt;4[;4D];D^@K`&gt;&lt;K&gt;JGL4:&lt;,2?L\6;L2\@6L_J3\FZ?#`&gt;=HX`L\8$^O^UNWX494N.BT_N^@QDW`*?_ATP2PX1Z=FLHD0[$RS-T$=!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -140,6 +140,16 @@
 			<Item Name="Configure Machine Restart.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Parallel&amp;Link/Configure Machine Restart.vi"/>
 			<Item Name="Parallel&amp;Link.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/Parallel&amp;Link/Parallel&amp;Link.mnu"/>
 		</Item>
+		<Item Name="Status" Type="Folder">
+			<Item Name="Configure Operation Enabling Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Operation Enabling Register.vi"/>
+			<Item Name="Configure Operation Ptransition Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Operation Ptransition Register.vi"/>
+			<Item Name="Configure Operation Ntransition Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Operation Ntransition Register.vi"/>
+			<Item Name="Configure Questionable Enabling Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Questionable Enabling Register.vi"/>
+			<Item Name="Configure Questionable Ntransition Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Questionable Ntransition Register.vi"/>
+			<Item Name="Configure Questionable Ptransition Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Questionable Ptransition Register.vi"/>
+			<Item Name="Configure Register Preset.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Register Preset.vi"/>
+			<Item Name="Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Status.mnu"/>
+		</Item>
 		<Item Name="Data" Type="Folder">
 			<Item Name="Read Output.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Data/Read Output.vi"/>
 			<Item Name="Fetch.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Data/Fetch.vi"/>
@@ -156,16 +166,6 @@
 			<Item Name="Remote.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Remote.vi"/>
 			<Item Name="Local.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Local.vi"/>
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Utility.mnu"/>
-		</Item>
-		<Item Name="Status" Type="Folder">
-			<Item Name="Configure Operation Enabling Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Operation Enabling Register.vi"/>
-			<Item Name="Configure Operation Ptransition Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Operation Ptransition Register.vi"/>
-			<Item Name="Configure Operation Ntransition Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Operation Ntransition Register.vi"/>
-			<Item Name="Configure Questionable Enabling Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Questionable Enabling Register.vi"/>
-			<Item Name="Configure Questionable Ntransition Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Questionable Ntransition Register.vi"/>
-			<Item Name="Configure Questionable Ptransition Register.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Questionable Ptransition Register.vi"/>
-			<Item Name="Configure Register Preset.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Configure Register Preset.vi"/>
-			<Item Name="Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Status.mnu"/>
 		</Item>
 		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Close.vi"/>
 		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Initialize.vi"/>
