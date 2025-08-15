@@ -9,15 +9,14 @@ Figure 1: USC High Power Battery Testing Facility.
 </p>
 
 
-## Battery Cycling 
-LabVIEW program developed for the NHR testers. 
+## Drivers
+Low level drivers
 
-## Battery Charging
-LabVIEW program developed for the NHR testers. 
+## Device Interface Layer
+Common building blocks that work with drivers
 
-## Battery Discharging 
-LabVIEW program developed for the NHR testers. 
-
+## Control Applications
+The battery test applications 
 
 ## License
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License [cc-by-sa 4.0].
