@@ -21,6 +21,8 @@ The battery test applications
 ## LabVIEW Tutorial
 A video example of how to set up the battery testing software is posted [here](https://www.youtube.com/watch?v=4ohZ9Rowb2g&ab_channel=ARTS-LabattheUniversityofSouthCarolina)
 
+<video src="media/Battery_Test_Tutorial_Aug_2025.mp4" controls width="600"></video>
+
 ## License
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License [cc-by-sa 4.0].
 
