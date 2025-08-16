@@ -10,7 +10,7 @@ Figure 1: USC High Power Battery Testing Facility.
 
 
 ## Drivers
-Low level drivers
+Low-level drivers
 
 ## Device Interface Layer
 Common building blocks that work with drivers
@@ -19,7 +19,7 @@ Common building blocks that work with drivers
 The battery test applications 
 
 ## LabVIEW Tutorial
-A video example of how to set up the battery testing software is posted [here](https://www.youtube.com/watch?v=4ohZ9Rowb2g&ab_channel=ARTS-LabattheUniversityofSouthCarolina)
+A video example of how to set up the battery testing software is posted [here](https://www.youtube.com/watch?v=4ohZ9Rowb2g&ab_channel=ARTS-LabattheUniversityofSouthCarolina) and is also in the "media" directory in this repository. 
 
 <video src="media/Battery_Test_Tutorial_Aug_2025.mp4" controls width="600"></video>
 
