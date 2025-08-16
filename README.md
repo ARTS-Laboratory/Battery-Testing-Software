@@ -19,7 +19,7 @@ Common building blocks that work with drivers
 The battery test applications 
 
 ## LabVIEW Tutorial
-This repo contains a video example of how to set up the battery testing software. A video of the system is also posted at https://www.youtube.com/watch?v=4ohZ9Rowb2g&ab_channel=ARTS-LabattheUniversityofSouthCarolina
+A video example of how to set up the battery testing software is posted [here](https://www.youtube.com/watch?v=4ohZ9Rowb2g&ab_channel=ARTS-LabattheUniversityofSouthCarolina)
 
 ## License
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License [cc-by-sa 4.0].
