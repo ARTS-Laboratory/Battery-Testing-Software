@@ -12,7 +12,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
-		<Item Name="Configure Channel.vi" Type="VI" URL="../Private/Configure Channel.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -151,7 +150,6 @@
 			<Item Name="Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/Status/Status.mnu"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
-			<Item Name="Read Output.vi" Type="VI" URL="../Public/Data/Read Output.vi"/>
 			<Item Name="Fetch.vi" Type="VI" URL="../Public/Data/Fetch.vi"/>
 			<Item Name="Measure.vi" Type="VI" URL="../Public/Data/Measure.vi"/>
 			<Item Name="ACMeter EACStage CLEar.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Data/ACMeter EACStage CLEar.vi"/>
