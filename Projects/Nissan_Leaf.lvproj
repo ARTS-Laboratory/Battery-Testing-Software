@@ -13,10 +13,13 @@
 		<Item Name="Cycling.vi" Type="VI" URL="../../Control-Applications/Cycling.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="IT-M3400.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT-M3400/IT-M3400.lvlib"/>
 				<Item Name="NH Research Regenerative Test Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/NH Research Regenerative Test Series.lvlib"/>
 			</Item>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 			<Item Name="vi.lib" Type="Folder">
@@ -280,7 +283,10 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				<Item Name="Get Project Library Version.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/Get Project Library Version.vi"/>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 				<Item Name="Get Property Type.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/Get Property Type.vi"/>
@@ -317,7 +323,10 @@
 				<Item Name="specialProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/specialProperties.ctl"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -347,6 +356,7 @@
 			<Item Name="BatterySettings.vi" Type="VI" URL="../../Device-Interface-Layer/BatterySettings.vi"/>
 			<Item Name="Chrg_Dschrg.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg.vi"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<Item Name="Filestructure.vi" Type="VI" URL="../../Device-Interface-Layer/Filestructure.vi"/>
 			<Item Name="Gen_Daq.vi" Type="VI" URL="../../../../../Desktop/General purpose labview/NHR/Gen_Daq.vi"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
@@ -356,6 +366,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 =======
+=======
+>>>>>>> Stashed changes
 			<Item Name="Configure Channel.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Configure Channel.vi"/>
 			<Item Name="Filestructure.vi" Type="VI" URL="../../Device-Interface-Layer/Filestructure.vi"/>
 			<Item Name="Gen_Daq.vi" Type="VI" URL="../../Device-Interface-Layer/Gen_Daq.vi"/>
@@ -368,6 +380,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			<Item Name="Set Sense Voltage On.vi" Type="VI" URL="../../Drivers-Essentials/Set Sense Voltage On.vi"/>
 			<Item Name="Wait.vi" Type="VI" URL="../../Device-Interface-Layer/Wait.vi"/>
