@@ -1,0 +1,8 @@
+[My Computer]
+My Computer="192.168.0.211"
+
+[NI-cRIO-9035-01B68DCC]
+NI-cRIO-9035-01B68DCC="localhost"
+
+[RT CompactDAQ Target]
+RT CompactDAQ Target="192.168.0.240"

@@ -11,7 +11,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Cycling_No_DAQ_Tasks_No_cRio.vi" Type="VI" URL="../../Control-Applications/Cycling_No_DAQ_Tasks_No_cRio.vi"/>
+		<Item Name="NH Research Regenerative Test Series.lvlib" Type="Library" URL="../../Drivers-Essentials/NH Research Regenerative Test Series.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Configure Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Private/Configure Channel.vi"/>
+				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Error Query.vi"/>
+				<Item Name="IT-M3400.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT-M3400/IT-M3400.lvlib"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
 				<Item Name="__closeStorageFromStorage.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromStorage.vi"/>
@@ -270,6 +276,7 @@
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
 			<Item Name="BatterySettings.vi" Type="VI" URL="../../Device-Interface-Layer/BatterySettings.vi"/>
+			<Item Name="BatterySettings2.vi" Type="VI" URL="../../Device-Interface-Layer/BatterySettings2.vi"/>
 			<Item Name="Chrg_Dschrg_nodaq_nocrio.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg_nodaq_nocrio.vi"/>
 			<Item Name="Configure Channel.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Configure Channel.vi"/>
 			<Item Name="Filestructure.vi" Type="VI" URL="../../Device-Interface-Layer/Filestructure.vi"/>
@@ -277,7 +284,6 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NH Research Regenerative Test Series.lvlib" Type="Library" URL="../../Drivers-Essentials/NH Research Regenerative Test Series.lvlib"/>
 			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
 			<Item Name="Set Sense Voltage On.vi" Type="VI" URL="../../Drivers-Essentials/Set Sense Voltage On.vi"/>
 			<Item Name="Wait_nodaq_nocrio.vi" Type="VI" URL="../../Device-Interface-Layer/Wait_nodaq_nocrio.vi"/>

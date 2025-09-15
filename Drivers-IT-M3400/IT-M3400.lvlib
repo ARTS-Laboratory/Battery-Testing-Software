@@ -152,8 +152,8 @@
 		<Item Name="Data" Type="Folder">
 			<Item Name="Fetch.vi" Type="VI" URL="../Public/Data/Fetch.vi"/>
 			<Item Name="Measure.vi" Type="VI" URL="../Public/Data/Measure.vi"/>
-			<Item Name="ACMeter EACStage CLEar.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Data/ACMeter EACStage CLEar.vi"/>
-			<Item Name="ACMeter EACTotal CLEar.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Data/ACMeter EACTotal CLEar.vi"/>
+			<Item Name="ACMeter EACStage CLEar.vi" Type="VI" URL="../Public/Data/ACMeter EACStage CLEar.vi"/>
+			<Item Name="ACMeter EACTotal CLEar.vi" Type="VI" URL="../Public/Data/ACMeter EACTotal CLEar.vi"/>
 			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/Data/Data.mnu"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
