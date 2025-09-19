@@ -15,8 +15,10 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Configure Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Private/Configure Channel.vi"/>
+				<Item Name="Configure Output Safety.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Configure Output Safety.vi"/>
 				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Error Query.vi"/>
-				<Item Name="IT-M3400.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT-M3400/IT-M3400.lvlib"/>
+				<Item Name="Output Safety.ctl" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Output Safety.ctl"/>
+				<Item Name="Read Output.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Data/Read Output.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -108,7 +110,6 @@
 				<Item Name="DU64_U32AddWithOverflow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32AddWithOverflow.vi"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -279,6 +280,7 @@
 			<Item Name="BatterySettings2.vi" Type="VI" URL="../../Device-Interface-Layer/BatterySettings2.vi"/>
 			<Item Name="Chrg_Dschrg_nodaq_nocrio.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg_nodaq_nocrio.vi"/>
 			<Item Name="Configure Channel.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Configure Channel.vi"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Filestructure.vi" Type="VI" URL="../../Device-Interface-Layer/Filestructure.vi"/>
 			<Item Name="IT-M3400.lvlib" Type="Library" URL="../../Drivers-IT-M3400/IT-M3400.lvlib"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
