@@ -7,13 +7,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Parse Array Data.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Private/Parse Array Data.vi"/>
-		<Item Name="Reopen VISA.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Private/Reopen VISA.vi"/>
-		<Item Name="Validate Instrument Revision.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Private/Validate Instrument Revision.vi"/>
-	</Item>
+	<Item Name="Private" Type="Folder"/>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -47,7 +41,6 @@
 			<Item Name="Reset Measurements (Energy Only).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Action-Status/Reset Measurements (Energy Only).vi"/>
 			<Item Name="Reset Measurements (Peak Only).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Action-Status/Reset Measurements (Peak Only).vi"/>
 			<Item Name="Reset Measurements.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Action-Status/Reset Measurements.vi"/>
-			<Item Name="Set Output Operation State.vi" Type="VI" URL="../Set Output Operation State.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
@@ -59,7 +52,7 @@
 				<Item Name="Configure Synchronization Timeout.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Low Level/Configure Synchronization Timeout.vi"/>
 			</Item>
 			<Item Name="Configure.mnu" Type="Document" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Configure.mnu"/>
-			<Item Name="Configure Battery Detect Voltage.vi" Type="VI" URL="../Configure Battery Detect Voltage.vi"/>
+			<Item Name="Configure Battery Detect Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Configure Battery Detect Voltage.vi"/>
 			<Item Name="Configure Current Sign.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Configure Current Sign.vi"/>
 			<Item Name="Configure Output Safety.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Configure Output Safety.vi"/>
 			<Item Name="Configure Range.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Configure Range.vi"/>
@@ -74,22 +67,22 @@
 		<Item Name="Data" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
 				<Item Name="Data_Low Level.mnu" Type="Document" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Data_Low Level.mnu"/>
-				<Item Name="Fetch (Ave Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave Current).vi"/>
-				<Item Name="Fetch (Ave True Power).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave True Power).vi"/>
-				<Item Name="Fetch (Ave Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave Voltage).vi"/>
-				<Item Name="Fetch (Max Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max Current).vi"/>
-				<Item Name="Fetch (Max True Power).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max True Power).vi"/>
-				<Item Name="Fetch (Max Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max Voltage).vi"/>
-				<Item Name="Fetch (Min Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Min Current).vi"/>
-				<Item Name="Fetch (Min True Power).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Min True Power).vi"/>
-				<Item Name="Fetch (Min Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Min Voltage).vi"/>
+				<Item Name="Fetch (Ave Current).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch (Ave Current).vi"/>
+				<Item Name="Fetch (Ave True Power).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch (Ave True Power).vi"/>
+				<Item Name="Fetch (Ave Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch (Ave Voltage).vi"/>
+				<Item Name="Fetch (Max Current).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch (Max Current).vi"/>
+				<Item Name="Fetch (Max True Power).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch (Max True Power).vi"/>
+				<Item Name="Fetch (Max Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch (Max Voltage).vi"/>
+				<Item Name="Fetch (Min Current).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch (Min Current).vi"/>
+				<Item Name="Fetch (Min True Power).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch (Min True Power).vi"/>
+				<Item Name="Fetch (Min Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch (Min Voltage).vi"/>
 				<Item Name="Fetch Array (Current).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch Array (Current).vi"/>
 				<Item Name="Fetch Array (Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch Array (Voltage).vi"/>
 				<Item Name="Fetch Array.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch Array.vi"/>
 				<Item Name="Fetch Waveform (Current).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch Waveform (Current).vi"/>
 				<Item Name="Fetch Waveform (Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch Waveform (Voltage).vi"/>
 				<Item Name="Fetch Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch Waveform.vi"/>
-				<Item Name="Fetch.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch.vi"/>
+				<Item Name="Fetch.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch.vi"/>
 				<Item Name="Initiate Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Initiate Measurement.vi"/>
 				<Item Name="Initiate Measurement Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Initiate Measurement Trigger.vi"/>
 				<Item Name="Query Number of Samples.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Query Number of Samples.vi"/>
@@ -108,19 +101,19 @@
 			<Item Name="Fetch Background Measurements (Peak).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Fetch Background Measurements (Peak).vi"/>
 			<Item Name="Query Aperture Length.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Query Aperture Length.vi"/>
 			<Item Name="Range.ctl" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Range.ctl"/>
-			<Item Name="Read (Ave Current).vi" Type="VI" URL="../Read (Ave Current).vi"/>
-			<Item Name="Read (Ave True Power).vi" Type="VI" URL="../Read (Ave True Power).vi"/>
-			<Item Name="Read (Ave Voltage).vi" Type="VI" URL="../Read (Ave Voltage).vi"/>
-			<Item Name="Read (Max Current).vi" Type="VI" URL="../Read (Max Current).vi"/>
-			<Item Name="Read (Max True Power).vi" Type="VI" URL="../Read (Max True Power).vi"/>
-			<Item Name="Read (Max Voltage).vi" Type="VI" URL="../Read (Max Voltage).vi"/>
-			<Item Name="Read (Min Current).vi" Type="VI" URL="../Read (Min Current).vi"/>
-			<Item Name="Read (Min True Power).vi" Type="VI" URL="../Read (Min True Power).vi"/>
-			<Item Name="Read (Min Voltage).vi" Type="VI" URL="../Read (Min Voltage).vi"/>
+			<Item Name="Read (Ave Current).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read (Ave Current).vi"/>
+			<Item Name="Read (Ave True Power).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read (Ave True Power).vi"/>
+			<Item Name="Read (Ave Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read (Ave Voltage).vi"/>
+			<Item Name="Read (Max Current).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read (Max Current).vi"/>
+			<Item Name="Read (Max True Power).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read (Max True Power).vi"/>
+			<Item Name="Read (Max Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read (Max Voltage).vi"/>
+			<Item Name="Read (Min Current).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read (Min Current).vi"/>
+			<Item Name="Read (Min True Power).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read (Min True Power).vi"/>
+			<Item Name="Read (Min Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read (Min Voltage).vi"/>
 			<Item Name="Read Array (Current).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read Array (Current).vi"/>
 			<Item Name="Read Array (Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read Array (Voltage).vi"/>
 			<Item Name="Read Array.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read Array.vi"/>
-			<Item Name="Read Single.vi" Type="VI" URL="../Read Single.vi"/>
+			<Item Name="Read Single.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read Single.vi"/>
 			<Item Name="Read Waveform (Current).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read Waveform (Current).vi"/>
 			<Item Name="Read Waveform (Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read Waveform (Voltage).vi"/>
 			<Item Name="Read Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read Waveform.vi"/>
@@ -184,7 +177,7 @@
 				<Item Name="Macro Query Learn.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Macro/Macro Query Learn.vi"/>
 			</Item>
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Utility.mnu"/>
-			<Item Name="Error Query.vi" Type="VI" URL="../Error Query.vi"/>
+			<Item Name="Error Query.vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Utility/Error Query.vi"/>
 			<Item Name="Query Capabilities.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Query Capabilities.vi"/>
 			<Item Name="Query Capabilities (Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Query Capabilities (Voltage).vi"/>
 			<Item Name="Query Capabilities (Current).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Query Capabilities (Current).vi"/>

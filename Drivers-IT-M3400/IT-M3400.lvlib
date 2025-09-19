@@ -165,10 +165,12 @@
 			<Item Name="Local.vi" Type="VI" URL="../Public/Utility/Local.vi"/>
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Utility.mnu"/>
 		</Item>
-		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
-		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Close.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Initialize.vi"/>
 		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
 		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/dir.mnu"/>
 	</Item>
+	<Item Name="Configure Channel.vi" Type="VI" URL="../Private/Configure Channel.vi"/>
 	<Item Name="IT-M3400 Readme.html" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/IT-M3400 Readme.html"/>
+	<Item Name="Read Output.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Data/Read Output.vi"/>
 </Library>
