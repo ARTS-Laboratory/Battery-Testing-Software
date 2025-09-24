@@ -1,0 +1,82 @@
+Date:  9/19/2025 5:04:09 PM
+User:  admin
+File:  C:\Users\admin\Documents\GitHub\Battery-Testing-Software\Control-Applications\Parallel-Testbed\DAQconfigDataPTBT.nce
+File version:  25.3
+MAX version:  25.3
+
+Importing...
+========
+NI-VISA 25.3:
+  VISA Server
+  Security
+
+NI-RIO 21.0:
+  Remote Device Access List (1)
+  RIO Server Port (dynamic)
+
+NI-DAQmx 21.0:
+  cDAQ-9171: "cDAQ1"
+  cDAQ-9171: "cDAQ2"
+  cDAQ-9174: "cDAQ3"
+  NI 9222: "cDAQ1Mod1"
+  NI 9211: "cDAQ2Mod1"
+  NI 9236: "cDAQ3Mod1"
+  NI 9219: "cDAQ3Mod2"
+  NI 9219: "cDAQ3Mod3"
+  NI 9219: "cDAQ3Mod4"
+  cDAQ-9189: "cDAQ9189-ParallelTestbed"
+  NI 9472: "cDAQ9189-ParallelTestbedMod2"
+  NI 9236: "cDAQ9189-ParallelTestbedMod5"
+  NI 9210 (miniTC): "cDAQ9189-ParallelTestbedMod6"
+  NI 9222: "cDAQ9189-ParallelTestbedMod8"
+  NI 9472: "cDAQ9189-ParallelTestbedMod1"
+  NI 9222: "cDAQ9189-ParallelTestbedMod3"
+  NI 9222: "cDAQ9189-ParallelTestbedMod7"
+  current Test
+  current Test/Voltage_0
+  current Test/Voltage_1
+  MyTemperatureTask
+  MyTemperatureTask/Temperature_0
+  MyTemperatureTask/Temperature_1
+  PTesbedTask
+  PTesbedTask/CellStrainCh1
+  PTesbedTask/CellStrainCh2
+  PTesbedTask/CellStrainCh3
+  PTesbedTask/CellTempCh1
+  PTesbedTask/CellTempCh2
+  PTesbedTask/CellTempCh3
+  PTesbedTask/CellVCh1
+  PTesbedTask/CellVCh2
+  PTesbedTask/CellVCh3
+  PTesbedTask/ChamberTemp
+  PTesbedTask/CurrentCh1
+  PTesbedTask/CurrentCh2
+  PTesbedTask/CurrentCh3
+  PTestbedRelayTask
+  PTestbedRelayTask/Relay1
+  PTestbedRelayTask/Relay2
+  PTestbedRelayTask/Relay3
+  PTestbedRelayTask/Relay4
+  PTestbedRelayTask/Relay5
+  PTestbedRelayTask/Relay6
+  PTestbedRelayTask/Relay7
+  PTestbedRelayTask/Relay8
+  PTestbedRelayTask/Relay9
+  PTestbedRelayTask/Relay10
+  PTestbedRelayTask/Relay11
+  test2
+  test2/Voltage_0
+  test2/Voltage_1
+  Thermocouples_SingleCellTest
+  Thermocouples_SingleCellTest/Batt_Strain
+  Thermocouples_SingleCellTest/Temp_Batt
+  Thermocouples_SingleCellTest/Temp_Inlet
+  Thermocouples_SingleCellTest/Temp_Outlet
+  VerivoltCurrentScale
+Note: Changing the port requires a restart of the RIO server or a reboot on the destination system.
+Note: Select View>>Refresh or press F5 in MAX to see any settings that have changed.
+-201369
+Hostname specified is in use by another device.
+Property: TCPIP.Hostname
+*** Import FAILED ***
+NI-DAQmx 21.0:  error code 0x80004005

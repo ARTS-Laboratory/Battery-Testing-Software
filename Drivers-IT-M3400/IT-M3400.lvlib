@@ -161,7 +161,7 @@
 			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Utility/Revision Query.vi"/>
 			<Item Name="Self-Test.vi" Type="VI" URL="../Public/Utility/Self-Test.vi"/>
-			<Item Name="Remote.vi" Type="VI" URL="../Public/Utility/Remote.vi"/>
+			<Item Name="Remote.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Remote.vi"/>
 			<Item Name="Local.vi" Type="VI" URL="../Public/Utility/Local.vi"/>
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Utility.mnu"/>
 		</Item>
