@@ -3,6 +3,3 @@ My Computer = "192.168.0.210"
 
 [NI-cRIO-9035-01B68DCC]
 NI-cRIO-9035-01B68DCC = "192.168.0.241"
-
-[RT CompactDAQ Target]
-RT CompactDAQ Target = "192.168.0.240"

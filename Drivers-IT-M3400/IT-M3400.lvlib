@@ -11,7 +11,7 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Private/Default Instrument Setup.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -158,7 +158,7 @@
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Reset.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Utility/Revision Query.vi"/>
 			<Item Name="Self-Test.vi" Type="VI" URL="../Public/Utility/Self-Test.vi"/>
 			<Item Name="Remote.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Remote.vi"/>

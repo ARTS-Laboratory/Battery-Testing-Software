@@ -47,7 +47,7 @@
 			<Item Name="Reset Measurements (Energy Only).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Action-Status/Reset Measurements (Energy Only).vi"/>
 			<Item Name="Reset Measurements (Peak Only).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Action-Status/Reset Measurements (Peak Only).vi"/>
 			<Item Name="Reset Measurements.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Action-Status/Reset Measurements.vi"/>
-			<Item Name="Set Output Operation State.vi" Type="VI" URL="../Set Output Operation State.vi"/>
+			<Item Name="Set Output Operation State.vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Action-Status/Set Output Operation State.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
@@ -69,7 +69,7 @@
 			<Item Name="Configure Slew Rate (Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Configure/Configure Slew Rate (Voltage).vi"/>
 			<Item Name="Configure Slew Rate (Resistance).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Configure Slew Rate (Resistance).vi"/>
 			<Item Name="Configure Slew Rate (All).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Configure Slew Rate (All).vi"/>
-			<Item Name="Output Safety.ctl" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Configure/Output Safety.ctl"/>
+			<Item Name="Output Safety.ctl" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Output Safety.ctl"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
 			<Item Name="Low Level" Type="Folder">

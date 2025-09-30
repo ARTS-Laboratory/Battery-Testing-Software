@@ -10,12 +10,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="NH Research Regenerative Test Series.lvlib" Type="Library" URL="../../Drivers-Essentials/NH Research Regenerative Test Series.lvlib"/>
 		<Item Name="PTestbed_CyclingRT.vi" Type="VI" URL="../../Control-Applications/Parallel-Testbed/PTestbed_CyclingRT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Error Query.vi"/>
 				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Error Query.vi"/>
-				<Item Name="IT-M3400.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT-M3400/IT-M3400.lvlib"/>
 				<Item Name="NH Research Regenerative Test Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/NH Research Regenerative Test Series.lvlib"/>
 				<Item Name="Set Output Operation State.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Action-Status/Set Output Operation State.vi"/>
 			</Item>
@@ -100,7 +99,6 @@
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
-				<Item Name="Configure Battery Detect Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Configure/Configure Battery Detect Voltage.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
@@ -153,6 +151,15 @@
 				<Item Name="DAQmx Read (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I8).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I16).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I32).vi"/>
@@ -324,14 +331,6 @@
 				<Item Name="ex_WriteToOpenTDMFile.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/express/TDMExpress.llb/ex_WriteToOpenTDMFile.vi"/>
 				<Item Name="ex_XColumnsText.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_XColumnsText.vi"/>
 				<Item Name="ex_YesOrNoToBool.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/ExFileReadBlock.llb/ex_YesOrNoToBool.vi"/>
-				<Item Name="Fetch (Ave Current).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Low Level/Fetch (Ave Current).vi"/>
-				<Item Name="Fetch (Ave True Power).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Low Level/Fetch (Ave True Power).vi"/>
-				<Item Name="Fetch (Max Current).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Low Level/Fetch (Max Current).vi"/>
-				<Item Name="Fetch (Max True Power).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Low Level/Fetch (Max True Power).vi"/>
-				<Item Name="Fetch (Max Voltage).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Low Level/Fetch (Max Voltage).vi"/>
-				<Item Name="Fetch (Min Current).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Low Level/Fetch (Min Current).vi"/>
-				<Item Name="Fetch (Min True Power).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Low Level/Fetch (Min True Power).vi"/>
-				<Item Name="Fetch (Min Voltage).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Low Level/Fetch (Min Voltage).vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
@@ -354,15 +353,6 @@
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
-				<Item Name="Read (Ave Current).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Read (Ave Current).vi"/>
-				<Item Name="Read (Ave True Power).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Read (Ave True Power).vi"/>
-				<Item Name="Read (Ave Voltage).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Read (Ave Voltage).vi"/>
-				<Item Name="Read (Max Current).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Read (Max Current).vi"/>
-				<Item Name="Read (Max True Power).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Read (Max True Power).vi"/>
-				<Item Name="Read (Max Voltage).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Read (Max Voltage).vi"/>
-				<Item Name="Read (Min Current).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Read (Min Current).vi"/>
-				<Item Name="Read (Min True Power).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Read (Min True Power).vi"/>
-				<Item Name="Read (Min Voltage).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Read (Min Voltage).vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Property (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Set Property (DBL).vi"/>
@@ -409,8 +399,11 @@
 			<Item Name="BatterySettings.vi" Type="VI" URL="../../Device-Interface-Layer/BatterySettings.vi"/>
 			<Item Name="Chrg_Dschrg.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Close.vi"/>
+			<Item Name="Configure Battery Detect Voltage.vi" Type="VI" URL="../../Drivers-Essentials/Configure Battery Detect Voltage.vi"/>
 			<Item Name="DAQmx Clear Task.vi" Type="VI" URL="../../Drivers-Essentials/DAQmx Clear Task.vi"/>
+			<Item Name="Default Instrument Setup.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Default Instrument Setup.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Fetch (Ave Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave Current).vi"/>
 			<Item Name="Fetch.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch.vi"/>
 			<Item Name="Filestructure.vi" Type="VI" URL="../../Device-Interface-Layer/Filestructure.vi"/>
 			<Item Name="Gen_Daq.vi" Type="VI" URL="../../Device-Interface-Layer/Gen_Daq.vi"/>
@@ -419,13 +412,15 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NH Research Regenerative Test Series.lvlib" Type="Library" URL="../../Drivers-Essentials/NH Research Regenerative Test Series.lvlib"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Read (Ave Current).vi" Type="VI" URL="../../Drivers-Essentials/Read (Ave Current).vi"/>
 			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
 			<Item Name="Read Single.vi" Type="VI" URL="../../Drivers-Essentials/Read Single.vi"/>
 			<Item Name="RelayControl.vi" Type="VI" URL="../../Control-Applications/Parallel-Testbed/RelayControl.vi"/>
+			<Item Name="Remote.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Remote.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Reset.vi"/>
 			<Item Name="Set Output Operation State.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Action-Status/Set Output Operation State.vi"/>
 			<Item Name="Set Sense Voltage On.vi" Type="VI" URL="../../Drivers-Essentials/Set Sense Voltage On.vi"/>
 			<Item Name="Wait.vi" Type="VI" URL="../../Device-Interface-Layer/Wait.vi"/>
@@ -457,10 +452,10 @@
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
 		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
-		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
+		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -473,6 +468,34 @@
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
+
+NI.ServerName default
+DocumentRoot "$LVSERVER_DOCROOT"
+TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
+DirectoryIndex index.htm
+WorkerLimit 10
+InactivityTimeout 60
+
+LoadModulePath "$LVSERVER_MODULEPATHS"
+LoadModule LVAuth lvauthmodule
+LoadModule LVRFP lvrfpmodule
+
+#
+# Pipeline Definition
+#
+
+SetConnector netConnector
+
+AddHandler LVAuth
+AddHandler LVRFP
+
+AddHandler fileHandler ""
+
+AddOutputFilter chunkFilter
+
+
+</Property>
 		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
@@ -504,6 +527,11 @@
 		<Item Name="PTestbed_CyclingRT.vi" Type="VI" URL="../../Control-Applications/Parallel-Testbed/PTestbed_CyclingRT.vi"/>
 		<Item Name="RelayControl.vi" Type="VI" URL="../../Control-Applications/Parallel-Testbed/RelayControl.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Error Query.vi"/>
+				<Item Name="NH Research Regenerative Test Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/NH Research Regenerative Test Series.lvlib"/>
+				<Item Name="Set Output Operation State.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Action-Status/Set Output Operation State.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
 				<Item Name="__closeStorageFromStorage.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromStorage.vi"/>
@@ -637,6 +665,15 @@
 				<Item Name="DAQmx Read (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I8).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I16).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I32).vi"/>
@@ -704,6 +741,7 @@
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -847,6 +885,7 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="specialProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/specialProperties.ctl"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TDMSAddBlankElem1d.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSAddBlankElem1d.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -871,52 +910,102 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
-			<Item Name="Clear Status.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Low Level/Clear Status.vi"/>
-			<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Close.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Close.vi"/>
 			<Item Name="Configure Battery Detect Voltage.vi" Type="VI" URL="../../Drivers-Essentials/Configure Battery Detect Voltage.vi"/>
-			<Item Name="Configure Restore.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Configure/Low Level/Configure Restore.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Fetch (Ave Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave Current).vi"/>
-			<Item Name="Fetch.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch.vi"/>
 			<Item Name="Fetch.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch.vi"/>
 			<Item Name="Gen_Daq.vi" Type="VI" URL="../../Device-Interface-Layer/Gen_Daq.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Initialize.vi"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Initialize.vi"/>
-			<Item Name="IT-M3400.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT-M3400/IT-M3400.lvlib"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Query Calibration Date.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Calibration/Query Calibration Date.vi"/>
-			<Item Name="Query Capabilities.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Query Capabilities.vi"/>
-			<Item Name="Query Current Calibration Factors (RAM).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Calibration/Query Current Calibration Factors (RAM).vi"/>
-			<Item Name="Query Voltage Calibration Factors (RAM).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Calibration/Query Voltage Calibration Factors (RAM).vi"/>
-			<Item Name="Query Watchdog Interval.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Watchdog/Query Watchdog Interval.vi"/>
-			<Item Name="Query Watchdog Robust Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Watchdog/Query Watchdog Robust Mode.vi"/>
 			<Item Name="Read (Ave Current).vi" Type="VI" URL="../../Drivers-Essentials/Read (Ave Current).vi"/>
 			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
-			<Item Name="Read Single.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Read Single.vi"/>
 			<Item Name="Read Single.vi" Type="VI" URL="../../Drivers-Essentials/Read Single.vi"/>
 			<Item Name="Remote.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Remote.vi"/>
-			<Item Name="Reset Current Calibration Factors.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Calibration/Reset Current Calibration Factors.vi"/>
-			<Item Name="Reset Voltage Calibration Factors.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Calibration/Reset Voltage Calibration Factors.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Reset.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Reset.vi"/>
-			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Revision Query.vi"/>
-			<Item Name="Save Calibration.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Calibration/Save Calibration.vi"/>
-			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Self-Test.vi"/>
-			<Item Name="Service Watchdog.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Watchdog/Service Watchdog.vi"/>
-			<Item Name="Set Current Calibration Gain.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Calibration/Set Current Calibration Gain.vi"/>
-			<Item Name="Set Output Operation State.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Action-Status/Set Output Operation State.vi"/>
 			<Item Name="Set Output Operation State.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Action-Status/Set Output Operation State.vi"/>
 			<Item Name="Set Sense Voltage On.vi" Type="VI" URL="../../Drivers-Essentials/Set Sense Voltage On.vi"/>
-			<Item Name="Set Watchdog Interval.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Watchdog/Set Watchdog Interval.vi"/>
-			<Item Name="Set Watchdog Robust Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Watchdog/Set Watchdog Robust Mode.vi"/>
 			<Item Name="Wait.vi" Type="VI" URL="../../Device-Interface-Layer/Wait.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="ParallelTB App" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{07FE29C1-E2E3-432F-9FAF-4798909986B0}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{F32C4664-292B-4293-88AD-C99797327FC4}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6648B9E2-C586-4E62-BC02-306E7E9D943B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ParallelTB App</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/ParallelTB App</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{022EF8E6-88F3-4178-A072-D724DD0450CD}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
+				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{919E450D-61C6-48A1-98B9-621CE5879B97}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/NI-cRIO-9054-01F17EC3/PTestbed_CyclingRT.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/NI-cRIO-9054-01F17EC3/BatterySettings.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/NI-cRIO-9054-01F17EC3/Chrg_Dschrg.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/NI-cRIO-9054-01F17EC3/DAQmx Clear Task.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/NI-cRIO-9054-01F17EC3/Filestructure.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/NI-cRIO-9054-01F17EC3/IT-M3400.lvlib</Property>
+				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/NI-cRIO-9054-01F17EC3/NH Research Regenerative Test Series.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/NI-cRIO-9054-01F17EC3/RelayControl.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of South Carolina</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ParallelTB App</Property>
+				<Property Name="TgtF_internalName" Type="Str">ParallelTB App</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 University of South Carolina</Property>
+				<Property Name="TgtF_productName" Type="Str">ParallelTB App</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D1D35C92-F1A0-4718-999B-09B54DEA300D}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

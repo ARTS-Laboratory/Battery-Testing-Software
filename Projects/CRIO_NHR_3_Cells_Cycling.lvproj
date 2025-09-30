@@ -1,17 +1,17 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
-	<Property Name="varPersistentID:{1EBFD079-1298-41FA-A53F-11692A151AA8}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI5</Property>
-	<Property Name="varPersistentID:{227181AF-3636-4063-9A29-010022E892FC}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI2</Property>
-	<Property Name="varPersistentID:{43177FF2-34D0-458F-9756-D7936370E668}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Thermocouple/CH2</Property>
-	<Property Name="varPersistentID:{4657BDD4-4250-4A47-B71B-FA1726371A95}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI7</Property>
-	<Property Name="varPersistentID:{5B7DE553-453D-41E7-B1B0-F8971A4D0C7F}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI6</Property>
-	<Property Name="varPersistentID:{7DFF4ABA-7420-4FF6-8D5A-2C717298F311}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI0</Property>
-	<Property Name="varPersistentID:{89497A52-03DC-42ED-AD3B-4A51CA264287}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI1</Property>
-	<Property Name="varPersistentID:{91DE8D93-5606-4990-98EE-C95ABAD27FCF}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Thermocouple/CH0</Property>
-	<Property Name="varPersistentID:{B1B1CC4B-3E46-45F6-B5C2-46DBFE161FFB}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Thermocouple/CH3</Property>
-	<Property Name="varPersistentID:{B8F53872-99DF-457A-9D34-21045B3CFE31}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI4</Property>
-	<Property Name="varPersistentID:{C7EFAEB1-18C2-4F58-BFA4-7196BCD05B56}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI3</Property>
-	<Property Name="varPersistentID:{F3140243-555E-459E-A062-605A27E19FF1}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Thermocouple/CH1</Property>
+	<Property Name="varPersistentID:{16A22AED-673C-4F71-8DAD-DFD63D558191}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI3</Property>
+	<Property Name="varPersistentID:{3C42A615-9871-4A0E-A60A-84F13BB4A2BF}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Thermocouple/CH2</Property>
+	<Property Name="varPersistentID:{3DC759A9-21F5-4EA5-82CF-AEA25CEF2E3F}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI1</Property>
+	<Property Name="varPersistentID:{5B87F44A-8350-4050-A9FE-31BA06759C7C}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI7</Property>
+	<Property Name="varPersistentID:{8576BA7D-2A2D-482C-BE44-003C0F8CFD36}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI2</Property>
+	<Property Name="varPersistentID:{8C3756D7-1D75-4803-9A1A-1FAD387030AC}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Thermocouple/CH3</Property>
+	<Property Name="varPersistentID:{AA68C35B-4FE4-4572-8B77-66491481ED6D}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI0</Property>
+	<Property Name="varPersistentID:{AA69F361-A39C-4CAC-B46A-9F7EAB1C96FF}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI5</Property>
+	<Property Name="varPersistentID:{AFFF4624-0D62-413B-927B-071753FC4CBC}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI6</Property>
+	<Property Name="varPersistentID:{DDFFB54D-4DA9-4566-9AA0-053D9C76B550}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Strain Gauge/AI4</Property>
+	<Property Name="varPersistentID:{E8CC0AF7-4BE4-4C9B-B4A6-2414D07AE28D}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Thermocouple/CH0</Property>
+	<Property Name="varPersistentID:{FF8CF50F-854C-4231-BDEC-1E4944E22C19}" Type="Ref">/NI-cRIO-9035-01B68DCC/Chassis/Real-Time Scan Resources/Thermocouple/CH1</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -22,20 +22,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Chrg_Dschrg.vi" Type="VI" URL="../../Documents/GitHub/Battery-Testing-Software/Device-Interface-Layer/Chrg_Dschrg.vi"/>
-		<Item Name="Chrg_Dschrg_nodaq.vi" Type="VI" URL="../../Documents/GitHub/Battery-Testing-Software/Device-Interface-Layer/Chrg_Dschrg_nodaq.vi"/>
-		<Item Name="Cycling.vi" Type="VI" URL="../../Documents/GitHub/Battery-Testing-Software/Control-Applications/Cycling.vi"/>
-		<Item Name="Cycling_No_DAQ_Tasks.vi" Type="VI" URL="../../Documents/GitHub/Battery-Testing-Software/Control-Applications/Cycling_No_DAQ_Tasks.vi"/>
-		<Item Name="IT-M3400.lvlib" Type="Library" URL="../../Drivers-IT-M3400/IT-M3400.lvlib"/>
-		<Item Name="NI 9210 Getting Started (Host).vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/CompactRIO/Module Specific/NI 9210/NI 9210 Getting Started/NI 9210 Getting Started (Host).vi"/>
-		<Item Name="strain_gauge_test.vi" Type="VI" URL="../../Documents/strain_gauge_test.vi"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="Close.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Close.vi"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Initialize.vi"/>
-			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
-			<Item Name="Remote.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Remote.vi"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="NI-cRIO-9035-01B68DCC" Type="RT CompactRIO">
@@ -60,11 +47,10 @@
 		<Property Name="target.IOScan.PowerupMode" Type="UInt">0</Property>
 		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
 		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
-		<Property Name="target.IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
 		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
-		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
+		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
 		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
@@ -80,34 +66,6 @@
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
-
-NI.ServerName default
-DocumentRoot "$LVSERVER_DOCROOT"
-TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
-DirectoryIndex index.htm
-WorkerLimit 10
-InactivityTimeout 60
-
-LoadModulePath "$LVSERVER_MODULEPATHS"
-LoadModule LVAuth lvauthmodule
-LoadModule LVRFP lvrfpmodule
-
-#
-# Pipeline Definition
-#
-
-SetConnector netConnector
-
-AddHandler LVAuth
-AddHandler LVRFP
-
-AddHandler fileHandler ""
-
-AddOutputFilter chunkFilter
-
-
-</Property>
 		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
@@ -118,9 +76,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Analog Input - Getting Started - Scan Mode.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/CompactRIO/NI Scan Engine/Module Specific/Analog Input/Analog Input - Getting Started/Analog Input - Getting Started - Scan Mode.vi"/>
-		<Item Name="BatterySettings.vi" Type="VI" URL="../../Device-Interface-Layer/BatterySettings.vi"/>
-		<Item Name="BatterySettingsStop.vi" Type="VI" URL="../../Documents/GitHub/Battery-Testing-Software/Device-Interface-Layer/BatterySettingsStop.vi"/>
+		<Item Name="3_Cycling_No_DAQ_Tasks.vi" Type="VI" URL="../../Control-Applications/3_Cycling_No_DAQ_Tasks.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -148,7 +104,7 @@ AddOutputFilter chunkFilter
 					<Property Name="cRIOModule.CH0.TCoupleType" Type="Str">0</Property>
 					<Property Name="cRIOModule.CH0.ThresHold" Type="Str">1.500000E+0</Property>
 					<Property Name="cRIOModule.CH1.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.CH1.Mode" Type="Str">7</Property>
+					<Property Name="cRIOModule.CH1.Mode" Type="Str">4</Property>
 					<Property Name="cRIOModule.CH1.Range" Type="Str">0</Property>
 					<Property Name="cRIOModule.CH1.RTD_A" Type="Str">3.908300E-3</Property>
 					<Property Name="cRIOModule.CH1.RTD_B" Type="Str">-5.775000E-7</Property>
@@ -158,7 +114,7 @@ AddOutputFilter chunkFilter
 					<Property Name="cRIOModule.CH1.TCoupleType" Type="Str">0</Property>
 					<Property Name="cRIOModule.CH1.ThresHold" Type="Str">1.500000E+0</Property>
 					<Property Name="cRIOModule.CH2.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.CH2.Mode" Type="Str">6</Property>
+					<Property Name="cRIOModule.CH2.Mode" Type="Str">4</Property>
 					<Property Name="cRIOModule.CH2.Range" Type="Str">0</Property>
 					<Property Name="cRIOModule.CH2.RTD_A" Type="Str">3.908300E-3</Property>
 					<Property Name="cRIOModule.CH2.RTD_B" Type="Str">-5.775000E-7</Property>
@@ -168,8 +124,8 @@ AddOutputFilter chunkFilter
 					<Property Name="cRIOModule.CH2.TCoupleType" Type="Str">0</Property>
 					<Property Name="cRIOModule.CH2.ThresHold" Type="Str">1.500000E+0</Property>
 					<Property Name="cRIOModule.CH3.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.CH3.Mode" Type="Str">2</Property>
-					<Property Name="cRIOModule.CH3.Range" Type="Str">1</Property>
+					<Property Name="cRIOModule.CH3.Mode" Type="Str">4</Property>
+					<Property Name="cRIOModule.CH3.Range" Type="Str">0</Property>
 					<Property Name="cRIOModule.CH3.RTD_A" Type="Str">3.908300E-3</Property>
 					<Property Name="cRIOModule.CH3.RTD_B" Type="Str">-5.775000E-7</Property>
 					<Property Name="cRIOModule.CH3.RTD_C" Type="Str">-4.183000E-12</Property>
@@ -189,6 +145,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">CH0</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -203,6 +160,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">CH1</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -217,6 +175,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">CH2</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -231,6 +190,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">CH3</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -245,6 +205,7 @@ AddOutputFilter chunkFilter
 					<Property Name="crio.SDcounterSlaveChannelMask" Type="Str">0</Property>
 					<Property Name="crio.SDCounterSlaveMasterSlot" Type="Str">0</Property>
 					<Property Name="crio.SDInputFilter" Type="Str">128</Property>
+					<Property Name="crio.ShuntCal%d" Type="Str">0</Property>
 					<Property Name="crio.SupportsDynamicRes" Type="Bool">true</Property>
 					<Property Name="crio.Type" Type="Str">NI 9236</Property>
 					<Property Name="cRIOModule.ClockSource" Type="Str">0</Property>
@@ -268,34 +229,42 @@ AddOutputFilter chunkFilter
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">AI0</Property>
-						<Property Name="Network:UseBinding" Type="Str">False</Property>
-						<Property Name="Network:UseBuffering" Type="Str">False</Property>
-						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
-					</Item>
-					<Item Name="AI1" Type="Variable">
-						<Property Name="featurePacks" Type="Str">Industrial</Property>
-						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
-						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-						<Property Name="Industrial:Mode" Type="Str">1</Property>
-						<Property Name="Industrial:PhysicalName" Type="Str">AI1</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
+						<Property Name="Industrial:RSI" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
+					<Item Name="AI1" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">AI1</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
+						<Property Name="Industrial:RSI" Type="Str">False</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
 					<Item Name="AI2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">AI2</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
+						<Property Name="Industrial:RSI" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -306,10 +275,13 @@ AddOutputFilter chunkFilter
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">AI3</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
+						<Property Name="Industrial:RSI" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -320,10 +292,13 @@ AddOutputFilter chunkFilter
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">AI4</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
+						<Property Name="Industrial:RSI" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -334,10 +309,13 @@ AddOutputFilter chunkFilter
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">AI5</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
+						<Property Name="Industrial:RSI" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -348,10 +326,13 @@ AddOutputFilter chunkFilter
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">AI6</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
+						<Property Name="Industrial:RSI" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -362,10 +343,13 @@ AddOutputFilter chunkFilter
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">AI7</Property>
+						<Property Name="Industrial:PublishedReadOnly" Type="Str">False</Property>
+						<Property Name="Industrial:RSI" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -375,17 +359,8 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Chrg_Dschrg_nodaq.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg_nodaq.vi"/>
-		<Item Name="Cycling.vi" Type="VI" URL="../../Documents/GitHub/Battery-Testing-Software/Control-Applications/Cycling.vi"/>
-		<Item Name="Cycling_No_DAQ_Tasks.vi" Type="VI" URL="../../Control-Applications/Cycling_No_DAQ_Tasks.vi"/>
-		<Item Name="Cycling_No_DAQ_Tasks_All_3_PS.vi" Type="VI" URL="../../Documents/GitHub/Battery-Testing-Software/Control-Applications/Cycling_No_DAQ_Tasks_All_3_PS.vi"/>
-		<Item Name="Cycling_No_DAQ_Tasks_RT.vi" Type="VI" URL="../../Control-Applications/Cycling_No_DAQ_Tasks_RT.vi"/>
-		<Item Name="Filestructure.vi" Type="VI" URL="../../Device-Interface-Layer/Filestructure.vi"/>
+		<Item Name="Cycling_No_DAQ_Tasks_All_3_PS.vi" Type="VI" URL="../../Control-Applications/Cycling_No_DAQ_Tasks_All_3_PS.vi"/>
 		<Item Name="IT-M3400.lvlib" Type="Library" URL="../../Drivers-IT-M3400/IT-M3400.lvlib"/>
-		<Item Name="NI 9210 Getting Started (FPGA).vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/CompactRIO/Module Specific/NI 9210/NI 9210 Getting Started/NI 9210 Getting Started (FPGA).vi"/>
-		<Item Name="NI 9210 Support Files.llb" Type="Document" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/CompactRIO/Module Specific/NI 9210/NI 9210 Support Files.llb"/>
-		<Item Name="strain_gauge_test.vi" Type="VI" URL="../../Documents/strain_gauge_test.vi"/>
-		<Item Name="Wait_nodaq.vi" Type="VI" URL="../../Device-Interface-Layer/Wait_nodaq.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Error Query.vi"/>
@@ -654,12 +629,17 @@ AddOutputFilter chunkFilter
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
+			<Item Name="BatterySettings.vi" Type="VI" URL="../../Device-Interface-Layer/BatterySettings.vi"/>
+			<Item Name="Chrg_Dschrg_nodaq.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg_nodaq.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Close.vi"/>
 			<Item Name="Configure Battery Detect Voltage.vi" Type="VI" URL="../../Drivers-Essentials/Configure Battery Detect Voltage.vi"/>
+			<Item Name="Cycling_No_DAQ_Tasks.vi" Type="VI" URL="../../Control-Applications/Cycling_No_DAQ_Tasks.vi"/>
+			<Item Name="Default Instrument Setup.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Default Instrument Setup.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Fetch (Ave Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave Current).vi"/>
 			<Item Name="Fetch (Max Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max Voltage).vi"/>
 			<Item Name="Fetch.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch.vi"/>
+			<Item Name="Filestructure.vi" Type="VI" URL="../../Device-Interface-Layer/Filestructure.vi"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Initialize.vi"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -670,123 +650,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
 			<Item Name="Read Single.vi" Type="VI" URL="../../Drivers-Essentials/Read Single.vi"/>
 			<Item Name="Remote.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Remote.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Reset.vi"/>
 			<Item Name="Set Sense Voltage On.vi" Type="VI" URL="../../Drivers-Essentials/Set Sense Voltage On.vi"/>
+			<Item Name="Wait_nodaq.vi" Type="VI" URL="../../Device-Interface-Layer/Wait_nodaq.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{4FF611D7-69FE-4EDB-978E-11F40C7AE85C}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{F37E952F-5A9F-41B9-BD3A-C17853E93912}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{B4753CB3-3EAA-4759-A653-0E209967B023}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">My Real-Time Application</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/My Real-Time Application</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{51DE150A-FD8B-4C25-AB27-C1E543536C9B}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
-				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AB914D4D-7A4D-43B6-8906-65A6292FBE33}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/NI-cRIO-9035-01B68DCC/Cycling_No_DAQ_Tasks_RT.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/NI-cRIO-9035-01B68DCC/BatterySettings.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/NI-cRIO-9035-01B68DCC/Wait_nodaq.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/NI-cRIO-9035-01B68DCC/Filestructure.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/NI-cRIO-9035-01B68DCC/Chrg_Dschrg_nodaq.vi</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
-				<Property Name="TgtF_companyName" Type="Str">University of South Carolina</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 University of South Carolina</Property>
-				<Property Name="TgtF_productName" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{B35DBE45-D7D0-4CD5-B7D9-FDC554605F0A}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-		</Item>
-	</Item>
-	<Item Name="RT CompactDAQ Target" Type="RT CDAQ Chassis">
-		<Property Name="alias.name" Type="Str">RT CompactDAQ Target</Property>
-		<Property Name="alias.value" Type="Str">192.168.0.240</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
-		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
-		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
-		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
-		<Property Name="host.TargetCPUID" Type="UInt">9</Property>
-		<Property Name="host.TargetOSID" Type="UInt">19</Property>
-		<Property Name="nidaqmx.ControllerPID" Type="Str">773B</Property>
-		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
-		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
-		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
-		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Faults" Type="Str"></Property>
-		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
-		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
-		<Property Name="target.IOScan.Period" Type="UInt">10000</Property>
-		<Property Name="target.IOScan.PowerupMode" Type="UInt">0</Property>
-		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
-		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
-		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
-		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
-		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
-		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
-		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
-		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
-		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
-		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
-		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
-		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
-		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
-		<Property Name="target.server.tcp.serviceName.default" Type="Str">Main Application Instance/VI Server</Property>
-		<Property Name="target.server.vi.access" Type="Str">+*</Property>
-		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
-		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
-		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
-		<Property Name="target.WebServer.Port" Type="Int">80</Property>
-		<Property Name="target.WebServer.RootPath" Type="Path">/c/ni-rt/system/www</Property>
-		<Property Name="target.WebServer.TcpAccess" Type="Str">c+*</Property>
-		<Property Name="target.WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
-		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
-		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
