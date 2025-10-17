@@ -157,8 +157,8 @@
 			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/Data/Data.mnu"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
 			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Reset.vi"/>
+			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Utility/Revision Query.vi"/>
 			<Item Name="Self-Test.vi" Type="VI" URL="../Public/Utility/Self-Test.vi"/>
 			<Item Name="Remote.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Remote.vi"/>

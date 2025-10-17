@@ -99,6 +99,7 @@
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
+				<Item Name="Configure Battery Detect Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Configure/Configure Battery Detect Voltage.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
@@ -353,6 +354,7 @@
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
+				<Item Name="Read (Ave Current).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Read (Ave Current).vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Property (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Set Property (DBL).vi"/>
@@ -404,6 +406,7 @@
 			<Item Name="Default Instrument Setup.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Default Instrument Setup.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Fetch (Ave Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave Current).vi"/>
+			<Item Name="Fetch (Max Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max Voltage).vi"/>
 			<Item Name="Fetch.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch.vi"/>
 			<Item Name="Filestructure.vi" Type="VI" URL="../../Device-Interface-Layer/Filestructure.vi"/>
 			<Item Name="Gen_Daq.vi" Type="VI" URL="../../Device-Interface-Layer/Gen_Daq.vi"/>
@@ -415,6 +418,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Output Safety.ctl" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Configure/Output Safety.ctl"/>
 			<Item Name="Read (Ave Current).vi" Type="VI" URL="../../Drivers-Essentials/Read (Ave Current).vi"/>
 			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
 			<Item Name="Read Single.vi" Type="VI" URL="../../Drivers-Essentials/Read Single.vi"/>
@@ -912,8 +916,10 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Close.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Close.vi"/>
 			<Item Name="Configure Battery Detect Voltage.vi" Type="VI" URL="../../Drivers-Essentials/Configure Battery Detect Voltage.vi"/>
+			<Item Name="Default Instrument Setup.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Default Instrument Setup.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Fetch (Ave Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave Current).vi"/>
+			<Item Name="Fetch (Max Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max Voltage).vi"/>
 			<Item Name="Fetch.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch.vi"/>
 			<Item Name="Gen_Daq.vi" Type="VI" URL="../../Device-Interface-Layer/Gen_Daq.vi"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Initialize.vi"/>
@@ -923,10 +929,12 @@ AddOutputFilter chunkFilter
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Output Safety.ctl" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Configure/Output Safety.ctl"/>
 			<Item Name="Read (Ave Current).vi" Type="VI" URL="../../Drivers-Essentials/Read (Ave Current).vi"/>
 			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
 			<Item Name="Read Single.vi" Type="VI" URL="../../Drivers-Essentials/Read Single.vi"/>
 			<Item Name="Remote.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Remote.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Reset.vi"/>
 			<Item Name="Set Output Operation State.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Action-Status/Set Output Operation State.vi"/>
 			<Item Name="Set Sense Voltage On.vi" Type="VI" URL="../../Drivers-Essentials/Set Sense Voltage On.vi"/>
 			<Item Name="Wait.vi" Type="VI" URL="../../Device-Interface-Layer/Wait.vi"/>
