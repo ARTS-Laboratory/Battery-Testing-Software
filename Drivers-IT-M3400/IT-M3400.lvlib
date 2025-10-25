@@ -157,16 +157,16 @@
 			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/Data/Data.mnu"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Reset.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
 			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Utility/Revision Query.vi"/>
 			<Item Name="Self-Test.vi" Type="VI" URL="../Public/Utility/Self-Test.vi"/>
-			<Item Name="Remote.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Remote.vi"/>
+			<Item Name="Remote.vi" Type="VI" URL="../Public/Utility/Remote.vi"/>
 			<Item Name="Local.vi" Type="VI" URL="../Public/Utility/Local.vi"/>
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/Utility/Utility.mnu"/>
 		</Item>
-		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Close.vi"/>
-		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/IT-M3400/Public/Initialize.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
 		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/IT-M3400/Public/dir.mnu"/>
 	</Item>

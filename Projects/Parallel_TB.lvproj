@@ -15,6 +15,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Error Query.vi"/>
+				<Item Name="Fetch (Ave Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch (Ave Voltage).vi"/>
 				<Item Name="NH Research Regenerative Test Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/NH Research Regenerative Test Series.lvlib"/>
 				<Item Name="Set Output Operation State.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Action-Status/Set Output Operation State.vi"/>
 			</Item>
@@ -404,21 +405,35 @@
 			<Item Name="Configure Battery Detect Voltage.vi" Type="VI" URL="../../Drivers-Essentials/Configure Battery Detect Voltage.vi"/>
 			<Item Name="DAQmx Clear Task.vi" Type="VI" URL="../../Drivers-Essentials/DAQmx Clear Task.vi"/>
 			<Item Name="Default Instrument Setup.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Default Instrument Setup.vi"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Error Query.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/Drivers-Essentials/Error Query.vi"/>
 			<Item Name="Fetch (Ave Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave Current).vi"/>
+			<Item Name="Fetch (Ave True Power).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave True Power).vi"/>
+			<Item Name="Fetch (Ave Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave Voltage).vi"/>
+			<Item Name="Fetch (Max Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max Current).vi"/>
+			<Item Name="Fetch (Max True Power).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max True Power).vi"/>
 			<Item Name="Fetch (Max Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max Voltage).vi"/>
+			<Item Name="Fetch (Min Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Min Current).vi"/>
+			<Item Name="Fetch (Min True Power).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Min True Power).vi"/>
+			<Item Name="Fetch (Min Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Min Voltage).vi"/>
 			<Item Name="Fetch.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch.vi"/>
 			<Item Name="Filestructure.vi" Type="VI" URL="../../Device-Interface-Layer/Filestructure.vi"/>
 			<Item Name="Gen_Daq.vi" Type="VI" URL="../../Device-Interface-Layer/Gen_Daq.vi"/>
+			<Item Name="Get Project Library Version.vi" Type="VI" URL="../../vi.lib/Utility/Get Project Library Version.vi"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Initialize.vi"/>
 			<Item Name="IT-M3400.lvlib" Type="Library" URL="../../Drivers-IT-M3400/IT-M3400.lvlib"/>
+			<Item Name="LVDateTimeRec.ctl" Type="VI" URL="../../vi.lib/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NH Research Regenerative Test Series.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/Drivers-Essentials/NH Research Regenerative Test Series.lvlib"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Output Safety.ctl" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Configure/Output Safety.ctl"/>
+			<Item Name="Query Capabilities (Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Utility/Query Capabilities (Voltage).vi"/>
+			<Item Name="Query Output Safety.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Action-Status/Query Output Safety.vi"/>
 			<Item Name="Read (Ave Current).vi" Type="VI" URL="../../Drivers-Essentials/Read (Ave Current).vi"/>
 			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
 			<Item Name="Read Single.vi" Type="VI" URL="../../Drivers-Essentials/Read Single.vi"/>
@@ -427,7 +442,10 @@
 			<Item Name="Reset.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Reset.vi"/>
 			<Item Name="Set Output Operation State.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Action-Status/Set Output Operation State.vi"/>
 			<Item Name="Set Sense Voltage On.vi" Type="VI" URL="../../Drivers-Essentials/Set Sense Voltage On.vi"/>
+			<Item Name="Trim Whitespace.vi" Type="VI" URL="../../vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+			<Item Name="Voltage Capabilities.ctl" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Utility/Voltage Capabilities.ctl"/>
 			<Item Name="Wait.vi" Type="VI" URL="../../Device-Interface-Layer/Wait.vi"/>
+			<Item Name="whitespace.ctl" Type="VI" URL="../../vi.lib/Utility/error.llb/whitespace.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -533,6 +551,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Utility/Error Query.vi"/>
+				<Item Name="Fetch (Ave Voltage).vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Data/Low Level/Fetch (Ave Voltage).vi"/>
 				<Item Name="NH Research Regenerative Test Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/NH Research Regenerative Test Series.lvlib"/>
 				<Item Name="Set Output Operation State.vi" Type="VI" URL="/&lt;instrlib&gt;/NH Research Regenerative Test Series/Public/Action-Status/Set Output Operation State.vi"/>
 			</Item>
@@ -871,6 +890,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
+				<Item Name="Read (Ave Current).vi" Type="VI" URL="/&lt;vilib&gt;/addons/NHR/Public/Data/Read (Ave Current).vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Property (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Set Property (DBL).vi"/>
@@ -917,12 +937,22 @@ AddOutputFilter chunkFilter
 			<Item Name="Close.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Close.vi"/>
 			<Item Name="Configure Battery Detect Voltage.vi" Type="VI" URL="../../Drivers-Essentials/Configure Battery Detect Voltage.vi"/>
 			<Item Name="Default Instrument Setup.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Default Instrument Setup.vi"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Fetch (Ave Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave Current).vi"/>
+			<Item Name="Fetch (Ave True Power).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave True Power).vi"/>
+			<Item Name="Fetch (Ave Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Ave Voltage).vi"/>
+			<Item Name="Fetch (Max Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max Current).vi"/>
+			<Item Name="Fetch (Max True Power).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max True Power).vi"/>
 			<Item Name="Fetch (Max Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Max Voltage).vi"/>
+			<Item Name="Fetch (Min Current).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Min Current).vi"/>
+			<Item Name="Fetch (Min True Power).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Min True Power).vi"/>
+			<Item Name="Fetch (Min Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch (Min Voltage).vi"/>
 			<Item Name="Fetch.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Data/Low Level/Fetch.vi"/>
 			<Item Name="Gen_Daq.vi" Type="VI" URL="../../Device-Interface-Layer/Gen_Daq.vi"/>
+			<Item Name="Get Project Library Version.vi" Type="VI" URL="../../vi.lib/Utility/Get Project Library Version.vi"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Initialize.vi"/>
+			<Item Name="LVDateTimeRec.ctl" Type="VI" URL="../../vi.lib/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -930,6 +960,8 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Output Safety.ctl" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Configure/Output Safety.ctl"/>
+			<Item Name="Query Capabilities (Voltage).vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Utility/Query Capabilities (Voltage).vi"/>
+			<Item Name="Query Output Safety.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Action-Status/Query Output Safety.vi"/>
 			<Item Name="Read (Ave Current).vi" Type="VI" URL="../../Drivers-Essentials/Read (Ave Current).vi"/>
 			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
 			<Item Name="Read Single.vi" Type="VI" URL="../../Drivers-Essentials/Read Single.vi"/>
@@ -937,6 +969,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Reset.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Reset.vi"/>
 			<Item Name="Set Output Operation State.vi" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Action-Status/Set Output Operation State.vi"/>
 			<Item Name="Set Sense Voltage On.vi" Type="VI" URL="../../Drivers-Essentials/Set Sense Voltage On.vi"/>
+			<Item Name="Voltage Capabilities.ctl" Type="VI" URL="../../Drivers-NHR-9200/NHR/Public/Utility/Voltage Capabilities.ctl"/>
 			<Item Name="Wait.vi" Type="VI" URL="../../Device-Interface-Layer/Wait.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
