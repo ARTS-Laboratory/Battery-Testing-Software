@@ -1,6 +1,5 @@
-# ⚠️ Development Notice — Repository Restructuring
-⚠️
-We’re refactoring this codebase to separate hardware targets into dedicated repositories. This creates clear “air-breaks” between setups and simplifies maintenance. Active development for specific hardware now lives here: [Battery-Testing-Software-NHR](https://github.com/ARTS-Laboratory/Battery-Testing-Software-NHR) and [Battery-Testing-Software-ITECH](https://github.com/ARTS-Laboratory/Battery-Testing-Software-ITECH). In the future, this repository will be deprecated and archived. 
+# ⚠️ Development Notice — Deprecated
+⚠️ This repo is deprecated. We refactored this codebase to separate hardware targets into dedicated repositories. This creates clear “air-breaks” between setups and simplifies maintenance. Active development for specific hardware now lives here: [Battery-Testing-Software-NHR](https://github.com/ARTS-Laboratory/Battery-Testing-Software-NHR) and [Battery-Testing-Software-ITECH](https://github.com/ARTS-Laboratory/Battery-Testing-Software-ITECH). In the future, this repository will be archived. 
 
 
 # Battery-Testing-Software
